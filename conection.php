@@ -7,7 +7,7 @@
 	$conn=mysqli_connect($servername,$username,$pass,$dbname);
 
 	if($conn) {
-		/*echo "conected ok";*/
+		echo "conected ok";
 	
 	}
 	else{ echo "conection failed";}
